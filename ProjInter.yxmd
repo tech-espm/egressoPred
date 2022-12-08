@@ -1,0 +1,2541 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ADMS A PARTIR DE 2020.xlsx
+Query=`ADMS$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_WString" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="V_String" />
+            <Field name="F27" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\ADMS A PARTIR DE 2020.xlsx|||`ADMS$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CINE A PARTIR DE 2020.xlsx
+Query=`CINE$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CINE A PARTIR DE 2020.xlsx|||`CINE$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CISO A PARTIR DE 2020.xlsx
+Query=`CISO$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CISO A PARTIR DE 2020.xlsx|||`CISO$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="859" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CSOS A PARTIR DE 2020.xlsx
+Query=`CSOS$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="V_String" />
+            <Field name="F27" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\CSOS A PARTIR DE 2020.xlsx|||`CSOS$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DESG A PARTIR DE 2020.xlsx
+Query=`DESG$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\DESG A PARTIR DE 2020.xlsx|||`DESG$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>JORN A PARTIR DE 2020.xlsx
+Query=`JORN$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\JORN A PARTIR DE 2020.xlsx|||`JORN$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RI A PARTIR DE 2020.xlsx
+Query=`RI$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\RI A PARTIR DE 2020.xlsx|||`RI$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="751" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TECH A PARTIR DE 2020.xlsx
+Query=`TECH$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="INÍCIO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="Date" />
+            <Field name="TÉRMINO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="Date" />
+            <Field name="MÊS" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="ANO" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="Double" />
+            <Field name="VIGÊNCIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="SITUAÇÃO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="EMPRESA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="SUPERVISOR DE ESTÁGIO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="EMAIL" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO3" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="AVALIAÇÃO DO ALUNO4" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="AGENTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="SEXO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="SEM." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="CURSO/TURNO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="BOLSA " size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="PORTE" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="SETOR" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="CATEGORIA" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="DEPTO." size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="VEÍCULO" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="R.I.C/1" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+            <Field name="R.I.C/2" size="255" source="File: C:\Users\alberto.abravanel\Downloads\2022-1 Base de Dados\TECH A PARTIR DE 2020.xlsx|||`TECH$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="F27" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="751" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="859" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="INÍCIO" selected="False" />
+            <SelectField field="TÉRMINO" selected="False" />
+            <SelectField field="MÊS" selected="False" />
+            <SelectField field="ANO" selected="False" />
+            <SelectField field="VIGÊNCIA" selected="False" />
+            <SelectField field="SITUAÇÃO" selected="False" />
+            <SelectField field="ALUNO" selected="False" />
+            <SelectField field="EMPRESA" selected="False" />
+            <SelectField field="SUPERVISOR DE ESTÁGIO" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO2" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO3" selected="False" />
+            <SelectField field="AVALIAÇÃO DO ALUNO4" selected="False" />
+            <SelectField field="AGENTE" selected="False" />
+            <SelectField field="SEXO" selected="True" />
+            <SelectField field="SEM." selected="True" />
+            <SelectField field="CURSO/TURNO" selected="False" />
+            <SelectField field="PORTE" selected="True" />
+            <SelectField field="SETOR" selected="True" />
+            <SelectField field="CATEGORIA" selected="True" />
+            <SelectField field="BOLSA " selected="True" />
+            <SelectField field="DEPTO." selected="False" />
+            <SelectField field="VEÍCULO" selected="False" />
+            <SelectField field="R.I.C/1" selected="False" />
+            <SelectField field="R.I.C/2" selected="False" />
+            <SelectField field="F27" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'ADM'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'ADM'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '2...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'CINE'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'CINE'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'CISO'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'CISO'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'DESIGN'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'DESIGN'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio',...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'JORNALISMO'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'JORNALISMO'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Méd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'RI'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'RI'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '2'...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="751" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'TECH'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'TECH'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="859" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'CSOS'" field="CURSO" size="10" type="V_WString" />
+            <FormulaField expression="IIF([PORTE] == 'PEQUENO', '1', &#xA;IIF([PORTE] == 'Médio', '2', '3'))" field="PORTE" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>CURSO = 'CSOS'
+PORTE = IIF([PORTE] == 'PEQUENO', '1', 
+IIF([PORTE] == 'Médio', '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings>
+        <Position x="246" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings>
+        <Position x="246" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings>
+        <Position x="246" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings>
+        <Position x="246" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings>
+        <Position x="246" y="535" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings>
+        <Position x="246" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings>
+        <Position x="246" y="751" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings>
+        <Position x="246" y="859" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"SEXO","SEM.","PORTE","SETOR","CATEGORIA","BOLSA "</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="103" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:45:37</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2022-10-13 23:45:37</StartDate>
+              <EndDate>2022-10-13 23:45:37</EndDate>
+              <Operand>
+              </Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="319" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="438" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="523" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="643" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="739" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="859" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsEmpty</Operator>
+            <Field>SEXO</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-13 23:42:32</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-10-13 23:42:32</StartDate>
+              <EndDate>2022-10-13 23:42:32</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsEmpty([SEXO])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="786" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([BOLSA ] == 'Acima de 2.000', '1', '0')" field="BOLSA " size="255" type="V_String" />
+            <FormulaField expression="IIF([SEXO] == 'M', 0, 1)" field="SEXO" size="255" type="V_String" />
+            <FormulaField expression="Left([SEM.], 1)" field="SEM." size="255" type="V_String" />
+            <FormulaField expression="IIF([SETOR] == 'Serviços', 1, &#xA;IIF([SETOR] == 'Indústria', 2, &#xA;IIF([SETOR] == 'Terceiro Setor', 3, 4)))" field="SETOR" size="255" type="V_String" />
+            <FormulaField expression="IIF([CURSO] == 'CSOS', '1', &#xA;IIF([CURSO] == 'ADM', '2', &#xA;IIF([CURSO] == 'RI', '3', &#xA;IIF([CURSO] == 'DESIGN', '4', &#xA;IIF([CURSO] == 'JORNALISMO', '5', &#xA;IIF([CURSO] == 'CISO', '6', &#xA;IIF([CURSO] == 'TECH', '7', '8')))))))" field="CURSO" size="10" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>BOLSA  = IIF([BOLSA ] == 'Acima de 2.000', '1', '0')
+SEXO = IIF([SEXO] == 'M', 0...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="858" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_7a7c9f6cdb084efdbd9ae518312ec3cd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SEXO" selected="True" type="Int64" size="8" />
+            <SelectField field="SEM." selected="True" type="Int64" size="8" />
+            <SelectField field="PORTE" selected="True" type="Int64" size="8" />
+            <SelectField field="SETOR" selected="True" type="Int64" size="8" />
+            <SelectField field="BOLSA " selected="True" type="V_WString" size="255" />
+            <SelectField field="CURSO" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="906" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>SEM.</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-10-14 16:00:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>*</Operand>
+              <StartDate>2022-10-14 16:00:34</StartDate>
+              <EndDate>2022-10-14 16:00:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[SEM.] != "*"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1170" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BOLSA " selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings>
+        <Position x="1506" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name" />
+          <Value name="select.target"><![CDATA[BOLSA ]]></Value>
+          <Value name="select.predictors">SEXO=True,SEM.=True,PORTE=True,SETOR=True,CATEGORIA=True,BOLSA =False,CURSO=True</Value>
+          <Value name="laplace.val">0</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Naive_Bayes.yxmc" />
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1626" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_1465d598e1164a3b81b413f86cec047f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Relatório</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1301" y="0" width="481" height="373" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Cluster</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings>
+            <Position x="1506" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="clus name">Cluster</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="SEXO" source="R-DATA:" type="Double" />
+                <Field name="SEM." source="R-DATA:" type="Double" />
+                <Field name="PORTE" source="R-DATA:" type="Double" />
+                <Field name="SETOR" source="R-DATA:" type="Double" />
+                <Field name="CATEGORIA" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="BOLSA." source="R-DATA:" type="Double" />
+                <Field name="CURSO" source="R-DATA:" type="Double" />
+                <Field name="Cluster" source="R-DATA:" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings>
+            <Position x="1422" y="133" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model name" />
+              <Value name="the fields">SEXO + SEM. + PORTE + SETOR + BOLSA  + CURSO</Value>
+              <Value name="standardize">False</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">True</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="num clus">5</Value>
+              <Value name="num seeds">10</Value>
+              <Value name="plot points">True</Value>
+              <Value name="plot centroids">False</Value>
+              <Value name="max comp">2</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="2147483647" source="Report: (Multiple Sources)" type="V_String" />
+                <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings>
+            <Position x="1530" y="49" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="the fields">SEXO + SEM. + PORTE + SETOR + BOLSA  + CURSO</Value>
+              <Value name="standardize">False</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">True</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="min clus">2</Value>
+              <Value name="max clus">7</Value>
+              <Value name="bootstrap rep">50</Value>
+              <Value name="num seeds">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1674" y="49" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_eeb77bb0eb7743979f05c2d98625a98c_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1590" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_c18f2ea5438e478d942fede2d6d7b80b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1566" y="253" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Cluster</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-05-30 21:50:43</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>5</Operand>
+                  <StartDate>2022-05-30 21:50:43</StartDate>
+                  <EndDate>2022-05-30 21:50:43</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Cluster] = 5</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1686" y="241" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_d471045101314a6fb70db02570f69170_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1698" y="289" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_ce01019ed0a048eea36b5199d0fa0ed6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1530" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_12148_553eee8905c046c186433b281abaf235_\Engine_10360_98efd48caa3744598042985d96002d30_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings>
+            <Position x="1326" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="estimation pct">34</Value>
+              <Value name="validation pct">33</Value>
+              <Value name="rand seed">1</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2141" y="161" width="340" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Prep</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="2166" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>airline-safety.xlsx
+Query=`airline-safety$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="airline" size="255" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="V_String" />
+                <Field name="avail_seat_km_per_week" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="incidents_85_99" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="fatal_accidents_85_99" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="fatalities_85_99" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="incidents_00_14" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="fatal_accidents_00_14" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+                <Field name="fatalities_00_14" source="File: C:\Users\alberto.abravanel\Desktop\airline-safety.xlsx|||`airline-safety$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2274" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[incidents_85_99] + [incidents_00_14]" field="Incidentes" size="8" type="Double" />
+                <FormulaField expression="[fatal_accidents_85_99] + [fatal_accidents_00_14]" field="Acidentes_Fatais" size="8" type="Double" />
+                <FormulaField expression="[fatalities_85_99] + [fatalities_00_14]" field="Mortes" size="8" type="Double" />
+                <FormulaField expression="IIF([Mortes] &gt; 0, 1, 0)" field="Mortes_log" size="107" type="V_WString" />
+                <FormulaField expression="IIF([Acidentes_Fatais] &gt; 0, 1, 0)" field="Acidentes_Fatais_num" size="10" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Somando Campos de Incidentes, acidentes e fatalidades</AnnotationText>
+              <DefaultAnnotationText>Incidentes = [incidents_85_99] + [incidents_00_14]
+Acidentes_Fatais = [fatal_acc...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2394" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="airline" selected="True" />
+                <SelectField field="avail_seat_km_per_week" selected="True" />
+                <SelectField field="Incidentes" selected="True" />
+                <SelectField field="Acidentes_Fatais" selected="True" />
+                <SelectField field="Mortes" selected="True" />
+                <SelectField field="Mortes_log" selected="True" size="21" />
+                <SelectField field="Acidentes_Fatais_num" selected="True" />
+                <SelectField field="Acidentes_log" selected="False" type="String" size="21" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Retirando Campos Repetidos</AnnotationText>
+              <DefaultAnnotationText>Retirando Campos Repetidos</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1385" y="462" width="313" height="201" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Reg_Log</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="13">
+          <GuiSettings>
+            <Position x="1506" y="511" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="New Model" />
+              <Value name="both">True</Value>
+              <Value name="backward">False</Value>
+              <Value name="AIC">True</Value>
+              <Value name="BIC">False</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1614" y="523" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_6416_0a75773ef39747d1b0e790043fa38f5d_\Engine_10360_98feedbf6c6b4096a1ef6ca56e99c444_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1530" y="571" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ALBERT~1.ABR\AppData\Local\Temp\Engine_6416_0a75773ef39747d1b0e790043fa38f5d_\Engine_10360_f70e958f85444a85bc8ce07229c66cf3_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Relatório</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="Logistic_Regression">
+            <Position x="1410" y="547" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name">Regressão_Logística_118</Value>
+              <Value name="Y Var"><![CDATA[BOLSA ]]></Value>
+              <Value name="X Vars">SEXO,SEM.,PORTE,SETOR,CURSO</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="standardize_pred">False</Value>
+              <Value name="internal_cv">False</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="set_seed_internal_cv">False</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="posClass">
+              </Value>
+              <Value name="Link">logit</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="stratified">False</Value>
+              <Value name="set_seed_external_cv">False</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Regressão_Logística_118</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="98" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="99" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="101" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="102" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="103" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="104" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="100" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="105" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output26" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output26" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output26" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output26" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output26" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output26" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Output26" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output26" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="106" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="107" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="108" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="109" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="110" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="111" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="112" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="113" Connection="False" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="13" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="13" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="True" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Report" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="17" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Validation" />
+      <Destination ToolID="17" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Reports" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Reports" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="False" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Estimation" />
+      <Destination ToolID="18" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Estimation" />
+      <Destination ToolID="19" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Reports" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ProjInter</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="aea16148-d9c5-4dc0-a907-acb8b7b7f728" />
+      <Telemetry>
+        <PreviousWorkflowId value="5422d0d6-8b9a-4a2d-b652-54b193291d52" />
+        <OriginWorkflowId value="5422d0d6-8b9a-4a2d-b652-54b193291d52" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
